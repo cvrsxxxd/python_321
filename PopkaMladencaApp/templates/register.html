@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GuGu</title>
+</head>
+<body>
+
+<form action="check" method="post">
+    {% csrf_token %}
+<input type="text" name="First_name" required><br>
+<input type="text" name="mail" required><br>
+<input type="text" name="password1" required><br>
+<input type="text" name="password2" required><br>
+<input type="text" name="phone_number" required><br>
+<input type="text" name="adress" required><br>
+<button>Регистрация</button>
+</form>
+
+</body>
+</html>
